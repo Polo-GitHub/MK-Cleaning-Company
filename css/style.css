@@ -357,8 +357,7 @@ label{
 .laundry__img-container{
   display: flex;
   gap: 1rem;
-   margin: 0 auto;
-  max-width: 1100px;
+  justify-content: center;
   padding-bottom: 2rem;
 }
 .laundry__img-container > div {
