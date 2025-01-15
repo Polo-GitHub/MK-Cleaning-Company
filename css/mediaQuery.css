@@ -416,7 +416,7 @@
 
    /* <!----------------------------------- Footer section ------------------------------> */
    .scroll__btn {
-     right: 60px;
+     right: 15px;
      bottom: 20px;
      z-index: 49;
    }
