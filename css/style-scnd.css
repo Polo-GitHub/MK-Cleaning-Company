@@ -489,7 +489,7 @@
 /* <!-- ------------------------ User login section --------------------------> */
 .login___container {
   background-color: var(--grey);
-  padding: 12rem 3rem 4em
+  padding: 12rem 3rem 4em;
 }
 
 .login___wrapper {
@@ -497,7 +497,7 @@
   flex-direction: column;
   gap: 2rem;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 500px;
   padding: 2rem 2rem;
   border-radius: 10px;
   background-color: var(--darkblue);
@@ -576,4 +576,84 @@
   background-color: transparent;
   border: 1px solid var(--sykblue);
   color: var(--white);
+}
+
+/* <!-- ------------------------ booknow  section --------------------------> */
+
+.book__form-container{
+ padding: 12rem 2rem 5rem;
+ background-color: #023047;
+}
+.form__wrapper{
+  background: linear-gradient(#219ebc,#023047);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem 3rem 3em;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+}
+.booknow__heading{
+  display: flex;
+  color: var(--darkblue);
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-1);
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.form__divide-booknow{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0rem 0rem 2rem;
+}
+.form__group{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.book__label{
+  font-family: var(--font-1);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.input__book{
+  width: 100%;
+  padding: 0rem 0.8rem;
+  font-family: var(--font-1);
+  font-size: 1rem;
+}
+.booknow__span{
+  grid-column: span 2; 
+}
+::placeholder{
+  font-family: var(--font-1);
+  font-size: 0.9rem;
+  color: var(--darkblue);
+}
+.input__book-textarea{
+  resize: vertical;
+  padding: 0.5rem;
+  font-family: var(--font-1);
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+}
+.form__book-btn{
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  margin: 0 auto;
+  padding: 0.8rem 2rem 0.8rem;
+  border-radius: 30px;
+  font-family: var(--font-5);
+  color: var(--light-black);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.form__book-btn:hover{
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--sykblue);
+
 }
