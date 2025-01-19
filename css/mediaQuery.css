@@ -1031,8 +1031,8 @@
 
   /* <!---------------------- Home heading  and form section ---------------> */
   .hero__container {
-    background-image: linear-gradient(rgba(0, 20, 50.5, 0.6),
-        rgba(0, 20, 50.5, 0.6)), url("../images/cleaner-picture\ -\ mobile.jpg");
+   background-image: linear-gradient(rgba(0, 20, 50.5, 0.9),
+      rgba(0, 20, 50.5, 0.9)), url("../images/contact-img.jpg");
     background-attachment: scroll;
     padding: 9rem 1rem 0;
     background-size: cover;
