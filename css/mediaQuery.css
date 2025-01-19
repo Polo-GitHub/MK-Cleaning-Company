@@ -434,6 +434,9 @@
     flex-direction: column;
     grid-template-columns: (none);
   }
+    .input__book {
+    width: 100%;
+  }
 
   ::placeholder {
     font-family: var(--font-1);
@@ -918,6 +921,9 @@
 
   .booknow__heading {
     font-size: 1.3rem;
+  }
+    .input__book {
+    width: 100%;
   }
 
   .form__divide-booknow {
@@ -1414,6 +1420,9 @@
     display: flex;
     flex-direction: column;
     grid-template-columns: (none);
+  }
+    .input__book {
+    width: 100%;
   }
 
   ::placeholder {
