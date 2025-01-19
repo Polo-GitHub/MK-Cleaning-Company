@@ -56,6 +56,7 @@
     background-attachment: fixed;
     padding: 9rem 1rem 0;
     background-position: center;
+    background-size: cover;
     margin-bottom: 3rem;
   }
 
@@ -425,7 +426,7 @@
   }
 
   .booknow__heading {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   .form__divide-booknow {
@@ -541,6 +542,7 @@
     background-attachment: fixed;
     padding: 9rem 1rem 0;
     background-position: center;
+    background-size: cover;
     margin-bottom: 5rem;
   }
 
@@ -904,6 +906,9 @@
   }
 
   /* <!-- ------------------------ booknow  section --------------------------> */
+  .book__form-container {
+    padding: 8rem 1rem 3rem;
+  }
 
   .form__wrapper {
     margin: 0;
@@ -924,10 +929,6 @@
   ::placeholder {
     font-family: var(--font-1);
     color: var(--darkblue);
-  }
-
-  .form__book-btn {
-    padding: 0.5rem 1rem 0.5rem;
   }
 
   /* <!----------------------------------- Footer section ------------------------------> */
@@ -1395,6 +1396,9 @@
     padding-left: 1rem;
   }
   /* <!-- ------------------------ booknow  section --------------------------> */
+  .book__form-container {
+    padding: 8rem 1rem 3rem;
+  }
 
   .form__wrapper {
     margin: 0;
@@ -1415,10 +1419,6 @@
   ::placeholder {
     font-family: var(--font-1);
     color: var(--darkblue);
-  }
-
-  .form__book-btn {
-    padding: 0.8rem 2rem 0.8rem;
   }
 
   /* <!----------------------------------- Footer section ------------------------------> */
@@ -1521,6 +1521,8 @@
   .hero__container {
     background-image: linear-gradient(rgba(0, 20, 50.5, 0.6),
         rgba(0, 20, 50.5, 0.6)), url("../images/cleaner-picture.jpg");
+     background-position: center;
+     background-size: cover;   
     margin-bottom: 5rem;
   }
 
@@ -1828,6 +1830,7 @@
       padding: 8rem 2rem 3rem;
     }
   
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
