@@ -439,10 +439,6 @@
     color: var(--darkblue);
   }
 
-  .form__book-btn {
-    padding: 0.5rem 1rem 0.5rem;
-  }
-
   /* <!----------------------------------- Footer section ------------------------------> */
   .scroll__btn {
     right: 15px;
@@ -908,9 +904,6 @@
   }
 
   /* <!-- ------------------------ booknow  section --------------------------> */
-  .book__form-container {
-    padding: 8rem 1rem 3rem;
-  }
 
   .form__wrapper {
     margin: 0;
@@ -1402,9 +1395,6 @@
     padding-left: 1rem;
   }
   /* <!-- ------------------------ booknow  section --------------------------> */
-  .book__form-container {
-    padding: 8rem 1rem 3rem;
-  }
 
   .form__wrapper {
     margin: 0;
@@ -1838,7 +1828,6 @@
       padding: 8rem 2rem 3rem;
     }
   
-
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
