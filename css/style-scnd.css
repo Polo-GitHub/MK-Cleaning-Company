@@ -610,6 +610,7 @@
 }
 .form__group{
   display: flex;
+  height: 100%;
   flex-direction: column;
   gap: 0.5rem;
 }
@@ -624,6 +625,10 @@
   font-family: var(--font-1);
   font-size: 1rem;
 }
+input[type="date"] {
+  width: 100%;
+}
+
 .booknow__span{
   grid-column: span 2; 
 }
