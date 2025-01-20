@@ -1526,10 +1526,6 @@
 
   /* <!---------------------- Home heading  and form section ---------------> */
   .hero__container {
-    background-image: linear-gradient(rgba(0, 20, 50.5, 0.6),
-        rgba(0, 20, 50.5, 0.6)), url("../images/cleaner-picture.jpg");
-     background-position: center;
-     background-size: cover;   
     margin-bottom: 5rem;
   }
 
