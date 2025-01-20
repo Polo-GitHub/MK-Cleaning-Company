@@ -1547,7 +1547,7 @@
   .heading__link {
     padding: 0.8rem 1rem;
     margin: 0 auto;
-    width: 20%;
+    width: max-content;
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
