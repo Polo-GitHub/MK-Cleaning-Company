@@ -190,7 +190,7 @@ code{
   padding: 0.8rem 2rem;
   background-color: var(--white);
   width: max-content;
-  border-radius: 8px;
+  border-radius: 30px;
   white-space: nowrap;
   color: var(--sykblue);
   font-size: 1.2rem;
