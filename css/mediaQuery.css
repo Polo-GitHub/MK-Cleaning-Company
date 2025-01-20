@@ -1173,7 +1173,7 @@
 
   .choose__heading {
     font-size: 3.1rem;
-    padding: 0rem 1rem 2rem;
+    padding: 2rem 1rem 2rem;
   }
 
   .team__wrapper {
@@ -1220,9 +1220,6 @@
   }
 
   .wrap__text {
-    font-family: var(--font-5);
-    color: var(--white);
-    font-size: 1rem;
     max-width: 200px;
   }
 
@@ -1475,7 +1472,7 @@
 /* Small Tablet (e.g., iPad Mini) */
 @media (min-width:415px) and (max-width: 768px) {
 
-  /* <!-------------------------- Header section --------------------------> */
+/* <!-------------------------- Header section --------------------------> */
   .header {
     position: fixed;
     width: 100%;
@@ -1536,7 +1533,7 @@
   }
 
   .heading {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .heading__paragraph {
@@ -1547,7 +1544,7 @@
   .heading__link {
     padding: 0.8rem 1rem;
     margin: 0 auto;
-    width: max-content;
+    width: 20%;
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
@@ -1571,6 +1568,7 @@
 
   .estimate__link {
     justify-content: center;
+    width: 50%;
   }
 
   /* <!-------------------------------Client Section-----------------------------------------> */
@@ -1581,7 +1579,6 @@
   .client__heading {
     font-size: 2.5rem;
     padding: 0 2rem 2rem;
-    white-space: nowrap;
   }
 
   .client__container {
@@ -1605,7 +1602,7 @@
   }
 
   .laundry__heading {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 
   .laundry__paragraph {
@@ -1669,23 +1666,32 @@
     padding-bottom: 0rem;
   }
 
-.choose__details {
+  .choose__details {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
-    padding: 0 1rem 0rem;
-}
+    padding-bottom: 2rem;
 
-  .choose__heading {
-    font-size: 3.6rem;
-    padding: 0 1rem 2rem;
   }
 
-.know__us-btn {
-    font-size: 1rem;
-    padding: 0.8rem 1.2rem;
-    margin: 2rem auto;
-}
+  .choose__heading {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .know__us-btn {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    background-color: var(--light-black);
+    width: 40%;
+    padding: 0.9rem 1rem;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: var(--white);
+  }
 
   /* <!--------------------------------------- How it works section --------------------------> */
   .work__container {
@@ -1700,15 +1706,9 @@
   }
 
   .work__icons {
-      display: flex;
-     flex-direction: column;
-     gap: 2rem;
-     padding: 3rem 1rem;
+    gap: 1rem;
+    padding: 3rem 1rem;
   }
-
-  .wrap__text {
-    max-width: 200px;
-}
 
   /* <!---------------------------- Our services section -----------------------> */
   .services__container {
@@ -1830,7 +1830,6 @@
       padding: 8rem 2rem 3rem;
     }
   
-
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
