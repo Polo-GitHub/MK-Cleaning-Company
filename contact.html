@@ -60,23 +60,23 @@
       <form action="" class="contact___form">
         <div class="contact___group">
           <label for="firstname" class="label__form">First Name</label>
-          <input type="text" class="input___form" name="fistname" id="">
+          <input type="text" class="input___form" name="fistname" id="" required>
         </div>
         <div class="contact___group">
           <label for="lastname" class="label__form">Last Name</label>
-          <input type="text" class="input___form" name="lastname" id="">
+          <input type="text" class="input___form" name="lastname" id="" required>
         </div>
         <div class="contact___group span-two">
           <label for="email" class="label__form">Email</label>
-          <input type="email" class="input___form" name="email" id="">
+          <input type="email" class="input___form" name="email" id="" required>
         </div>
         <div class="contact___group">
           <label for="Number" class="label__form">Phone Number</label>
-          <input type="tel" class="input___form" name="phonenumber" id="">
+          <input type="tel" class="input___form" name="phonenumber" id="" required>
         </div>
         <div class="contact___group ">
           <label for="position" class="label__form">Position</label>
-          <select name="position" id="Position">
+          <select name="position" id="Position" required>
             <option value="">Full-time</option>
             <option value="">Part-time</option>
           </select>
@@ -84,7 +84,7 @@
         <div class="contact___group span-two">
           <label for="message" class="label__form">Tell Us More</label>
           <textarea name="textmessage" class="input___message" id="message" placeholder="Your Message..."
-            cols="50" rows="20"></textarea>
+            cols="50" rows="20" required></textarea>
           <button type="submit" class="submit__btn">Send</button>
         </div>
       </form>
