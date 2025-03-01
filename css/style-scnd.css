@@ -216,6 +216,9 @@
 
 .about__paragraph {
   font-family: var(--font-5);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 500;
   max-width: 470px;
 }
 
@@ -624,6 +627,12 @@
   padding: 0rem 0.8rem;
   font-family: var(--font-1);
   font-size: 1rem;
+}
+#date::placeholder{
+  
+  color: red;
+
+
 }
 .booknow__span{
   grid-column: span 2; 
